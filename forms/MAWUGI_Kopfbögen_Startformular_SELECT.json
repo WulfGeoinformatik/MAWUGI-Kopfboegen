@@ -1,0 +1,117 @@
+{
+  "label": "Vorlage",
+  "widget": "choicesjs",
+  "tableView": true,
+  "dataSrc": "custom",
+  "data": {
+    "headers": [
+      {
+        "key": "",
+        "value": ""
+      }
+    ],
+    "custom": "values = data.vorlagen",
+    "values": [
+      {
+        "label": "",
+        "value": ""
+      }
+    ],
+    "json": "",
+    "url": "",
+    "resource": ""
+  },
+  "disableLimit": false,
+  "template": "<span>{{ item.displayName }}</span>",
+  "noRefreshOnScroll": false,
+  "addResource": false,
+  "reference": false,
+  "validate": {
+    "select": false,
+    "required": false,
+    "custom": "",
+    "customPrivate": false,
+    "strictDateValidation": false,
+    "multiple": false,
+    "unique": false,
+    "onlyAvailableItems": false
+  },
+  "key": "selectVorlage",
+  "type": "select",
+  "input": true,
+  "placeholder": "",
+  "prefix": "",
+  "customClass": "",
+  "suffix": "",
+  "multiple": false,
+  "defaultValue": null,
+  "protected": false,
+  "unique": false,
+  "persistent": true,
+  "hidden": false,
+  "clearOnHide": false,
+  "refreshOn": "",
+  "redrawOn": "",
+  "modalEdit": false,
+  "dataGridLabel": false,
+  "labelPosition": "top",
+  "description": "",
+  "errorLabel": "",
+  "tooltip": "",
+  "hideLabel": false,
+  "tabindex": "",
+  "disabled": false,
+  "autofocus": false,
+  "dbIndex": false,
+  "customDefaultValue": "",
+  "calculateValue": "",
+  "calculateServer": false,
+  "attributes": {},
+  "validateOn": "change",
+  "conditional": {
+    "show": null,
+    "when": null,
+    "eq": ""
+  },
+  "overlay": {
+    "style": "",
+    "left": "",
+    "top": "",
+    "width": "",
+    "height": ""
+  },
+  "allowCalculateOverride": false,
+  "encrypted": false,
+  "showCharCount": false,
+  "showWordCount": false,
+  "properties": {},
+  "allowMultipleMasks": false,
+  "addons": [],
+  "authenticate": false,
+  "ignoreCache": false,
+  "idPath": "id",
+  "clearOnRefresh": false,
+  "limit": 100,
+  "valueProperty": "",
+  "lazyLoad": true,
+  "filter": "",
+  "searchEnabled": true,
+  "searchDebounce": 0.3,
+  "searchField": "",
+  "minSearch": 0,
+  "readOnlyValue": false,
+  "selectFields": "",
+  "selectThreshold": 0.3,
+  "uniqueOptions": false,
+  "fuseOptions": {
+    "include": "score",
+    "threshold": 0.3
+  },
+  "indexeddb": {
+    "filter": {}
+  },
+  "customOptions": {},
+  "useExactSearch": false,
+  "id": "edtu7da",
+  "keyModified": true
+}
