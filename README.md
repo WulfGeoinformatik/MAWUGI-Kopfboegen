@@ -10,7 +10,10 @@ Die Vorlagen sind einfache Word-Dateien (*.docx). Die die Platzhalter für die V
 ![Vorlage](https://github.com/WulfGeoinformatik/MAWUGI-Kopfboegen/blob/8c31e44a6857dcdc815f38221617a2aa79d33123/template.png)
 
 ## Nutzung
-Das Startformular kann an jeder beliebigen Dokumentart (Kategorie) als Kontext-Aktion registriert werden. Das Startformular liest die Konfiguration aus und bietet dann die für die Kategorie vorgesehenen Vorlagen zur Auswahl an. Die Vorlage wird dann im Hintergrund automatisch erstellt und hochgeladen. Im Anschluss wird der Nutzer zu einem Ablage Dialog weitergeleitet.
+Das Startformular kann an jeder beliebigen Dokumentart (Kategorie) als Kontext-Aktion registriert werden. 
+  - Das Startformular liest die Konfiguration aus und bietet dann die für die Kategorie vorgesehenen Vorlagen zur Auswahl an.
+  - Die Vorlage wird dann im Hintergrund automatisch erstellt und hochgeladen.
+Im Anschluss wird der Nutzer zu einem Ablage Dialog weitergeleitet.
 
 ![Formular](https://github.com/WulfGeoinformatik/MAWUGI-Kopfboegen/blob/107c04b46f4ce0881a1fd1abc3882f7499c7cba2/start_form.png)
 
