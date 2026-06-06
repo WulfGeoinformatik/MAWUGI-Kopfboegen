@@ -30,7 +30,7 @@ async function init(form, data){
     console.log("Nutzer", data.nutzer.id)
     data.vorlagen   = await getVorlagen(data.dmsProperties.property_category);
     console.log(data.vorlagen)
-    dapi.publishTitle('osDocs');
+    dapi.publishTitle('MaWuGi Kopfbögen');
     form.triggerRedraw();
 }
 
