@@ -5,7 +5,7 @@ Dies ist eine einfache Vorlagenverwaltung / Template Management für das Dokumen
   - Einfügen von LDAP-Informationen (AD)
 
 ## Vorlagen
-Die Vorlagen sind einfache Word-Dateien (*.docx). Die die Platzhalter für die Variablen werden formatiert im Text formatiert geführt und durch geschweifte Klammern **{ }** gekennzeichnet.
+Die Vorlagen sind einfache Word-Dateien (*.docx). Die die Platzhalter für die Variablen werden formatiert im Text mitgeführt und durch geschweifte Klammern **{ }** gekennzeichnet.
 
 ![Vorlage](https://github.com/WulfGeoinformatik/MAWUGI-Kopfboegen/blob/8c31e44a6857dcdc815f38221617a2aa79d33123/template.png)
 
