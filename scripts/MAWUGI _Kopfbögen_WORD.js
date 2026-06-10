@@ -54,7 +54,7 @@ module.exports = async (req, res) => {
         if (vorlage.name == body.vorlage) {
             vorlageID = vorlage.doc_id
             for (const mapping of vorlage.mappings) {
-                if (mapping.doku_art == body.doku_art) {
+                if (mapping.doku_art == body.doku_art || mapping.doku_art == "*") {
                     mappingFelder = mapping.felder
                 }
             }
