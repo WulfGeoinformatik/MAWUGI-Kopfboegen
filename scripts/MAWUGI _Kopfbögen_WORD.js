@@ -164,6 +164,10 @@ module.exports = async (req, res) => {
             }
             jsonString[feld.key] = datum[valueKey];
         }
+        else if (type == 'txt')
+        {
+            jsonString[feld.key] = valueKey;
+        }
     };
     console.log(jsonString);
 
