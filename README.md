@@ -26,4 +26,8 @@ Im Anschluss wird der Nutzer zu einem Ablage Dialog weitergeleitet.
   -	Eine Vorlage kann an mehreren Kategorien registriert werden. 
   -	Je Registrierung wird ein Objekt im Array Mappings benötigt.
     - Die Key sind die Platzhalter für die Word-Datei.
-    - Bei der dms.id handelt es sich um die Kurz-ID, welche im D3_admin oder über die API einzusehen ist.
+    - Für die Values gibt es folgende Optionen:
+      - **dms.id:** Bei der dms.id handelt es sich um die Kurz-ID, welche im D3_admin oder über die API einzusehen ist.
+      - **ldap.xy:** LPAD-Bezeichnung siehe ./scripts (LDAP)
+      - **idp.xy:** IDP-Feld siehe ./scripts (WORD)
+      - **txt.xy:** XY = Freitetx
