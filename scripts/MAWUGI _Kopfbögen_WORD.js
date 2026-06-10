@@ -255,7 +255,7 @@ module.exports = async (req, res) => {
             "storeObjects": [
                 {
                    
-                    "filename": "MaWuGi Vorlage.docx",
+                    "filename": "${body.vorlage}.docx",
                     "sourceId": "/dms/r/${repo}/source",
                     "contentLocationUri": "${locationHeader}"
                 }
