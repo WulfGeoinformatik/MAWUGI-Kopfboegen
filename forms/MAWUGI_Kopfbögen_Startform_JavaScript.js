@@ -56,7 +56,7 @@ async function getVorlagen(dokuart) {
         console.log(vorlage.displayName);
         for (const mapping of vorlage.mappings){
             console.log(mapping.doku_art);
-            if (mapping.doku_art == dokuart) {
+            if (mapping.doku_art == dokuart || mapping.doku_art == "*") {
                 match = true;
             }
         }
